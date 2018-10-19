@@ -1,0 +1,92 @@
+/*-------------------------------------------nav bar--------------------------------------------*/
+.nav {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a {
+    padding-right: 20px;
+}
+
+/*-------------------------------------------container--------------------------------------------*/
+
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('../images/icecream.jpg');
+    background-size: cover;
+}
+
+/*-------------------------------------------add product form-----------------------------------------*/
+
+/*-------------------------------------------------input-client-details-row1----------------------------------------------------------------*/
+
+.input-icecream-row1 {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.input-icecream-row1 input{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.input-icecream-row1 > :nth-child(1) {
+
+}
+
+.input-icecream-row1 > :nth-child(2) {
+    width: 170px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input-icecream-row1 > :nth-child(3) {
+
+}
+
+
+/*-------------------------------------------------input-client-details-row2----------------------------------------------------------------*/
+.input-icecream-row2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-icecream-row2 input{
+    width: 30%;
+    padding: 12px 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-icecream-row2 textarea {
+    resize: vertical;
+    padding-left: 20px;
+    padding-top: 12px;
+    min-height: 45px;
+    width: 500px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-icecream-row2 > :nth-child(1) {
+
+}
+
+.input-icecream-row2 > :nth-child(2) {
+    width: 170px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input-icecream-row2 > :nth-child(3) {
+
+}
