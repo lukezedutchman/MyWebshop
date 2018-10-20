@@ -17,7 +17,7 @@
             <form action="{{'store'}}" method="post">
                 @csrf
                 <div class="input-icecream-details-row1">
-                    <select name="select-category">
+                    <select name="select_category">
                         <option value="0" disabled selected>Select Category</option>
                         <option value="1">Hard Ice Cream</option>
                         <option value="2">French Ice Cream</option>

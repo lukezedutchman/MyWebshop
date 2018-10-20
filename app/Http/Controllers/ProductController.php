@@ -38,7 +38,7 @@ class ProductController extends Controller
 
     public function store(Request $request){
         $Product = new product;
-        $Product->category_id = $request->category_id;
+        $Product->category_id = $request->select_category;
         $Product->name = $request->Product_Name;
         $Product->price = $request->Price;
         $Product->quantity = $request->Quantity;
